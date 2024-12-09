@@ -45,6 +45,7 @@ export interface RegexOptions {
   opening_character?: string;
   closing_character?: string;
   separator?: string;
+  include_braces?: boolean;
 }
 
 export interface GetReferencesOptions extends RegexOptions {
